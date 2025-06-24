@@ -1,3 +1,4 @@
+import account.ATM;
 import account.Account;
 
 public class Main {
@@ -6,7 +7,7 @@ public class Main {
     }
 
     public static void account3(){
-        Account account = new Account();
-        account.list();
+        ATM atm = new ATM();
+        atm.run();
     }
 }
